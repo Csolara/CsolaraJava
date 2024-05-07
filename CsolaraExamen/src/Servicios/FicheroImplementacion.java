@@ -3,6 +3,10 @@ package Servicios;
 import java.io.FileWriter;
 import java.time.LocalDate;
 
+/*
+ * Clase que implementa la interfaz del fichero.
+ * CSL - 07052024 
+ */
 public class FicheroImplementacion implements FicheroInterfaz {	
 
 	public void FICHERO(String texto) {

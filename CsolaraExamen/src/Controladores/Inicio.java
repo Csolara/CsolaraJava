@@ -14,11 +14,20 @@ import Servicios.FicheroInterfaz;
 import Servicios.MenuImplementacion;
 import Servicios.MenuInterfaz;
 
+/*
+ * Clase principal de la aplicacion.
+ * CSL - 07052024 
+ */
 public class Inicio {
 
 	 public static List<CitasDto> listacitas = new ArrayList<CitasDto>();
 	 public static List<ClienteDto> listaclientes = new ArrayList<ClienteDto>();
 	
+	 
+	/*
+	 * Metodo principal de la aplicacion.
+	 * CSL - 07052024 
+	 */
 	public static void main(String[] args) {		
 		
 		FicheroInterfaz fi = new FicheroImplementacion();

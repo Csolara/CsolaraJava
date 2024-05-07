@@ -2,6 +2,10 @@ package Servicios;
 
 import java.util.Scanner;
 
+/*
+ * Clase que implementa la interfaz del menu de la aplicacion.
+ * CSL - 07052024 
+ */
 public class MenuImplementacion implements MenuInterfaz {
 
 	public int MENU() {

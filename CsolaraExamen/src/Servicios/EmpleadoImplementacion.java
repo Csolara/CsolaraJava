@@ -4,6 +4,10 @@ import java.util.Scanner;
 
 import Dtos.CitasDto;
 
+/*
+ * Clase que implementa la interfaz del empleado.
+ * CSL - 07052024 
+ */
 public class EmpleadoImplementacion implements EmpleadoInterfaz {
 	
 	public void ValidarNuevoCliente() {

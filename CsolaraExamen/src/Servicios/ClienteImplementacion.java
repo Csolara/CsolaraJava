@@ -6,6 +6,10 @@ import java.util.Scanner;
 import Dtos.CitasDto;
 import Dtos.ClienteDto;
 
+/*
+ * Clase que implementa la interfaz del cliente.
+ * CSL - 07052024 
+ */
 public class ClienteImplementacion implements ClienteInterfaz {
 
 	public void RegistroCliente() {
